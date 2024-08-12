@@ -15,8 +15,7 @@ class Emerge < Formula
     system "tools/build"
     system "tools/bundle"
     system "tools/package"
-    prefix.install "out/emerge" => "bin/emerge"
-    bin.install_symlink "bin/emerge" => "emerge"
+    bin.install "out/emerge"
   end
 
   test do
