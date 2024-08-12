@@ -2,7 +2,7 @@ class Emerge < Formula
   desc "Emergetools CLI"
   homepage "https://docs.emergetools.com"
   url "https://github.com/chromy/emerge-cli/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "39cdd1d08eb87a0edb27fd3ffaabb5a8a7e1f71b491f7eb61d577b972810bcd1"
+  sha256 "9e6f0b804b236b13cfc63e2571576e950728b9c46101c7cfb033d937a6bbd1f5"
   license "MIT"
 
   head "https://github.com/chromy/emerge-cli.git", branch: "main"
